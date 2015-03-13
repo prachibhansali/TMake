@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/template1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/template_basic"
+            android:onClick="imageDisplay"/>
+
+        <ImageView
+            android:id="@+id/template2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/template_polo" 
+            android:onClick="imageDisplay"/>
+
+        <ImageView
+            android:id="@+id/template3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/template_tanktop" 
+            android:onClick="imageDisplay"/>
+
+        <ImageView
+            android:id="@+id/template4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/template_basic" 
+            android:onClick="imageDisplay"/>
+
+        <ImageView
+            android:id="@+id/template5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/template_polo"
+            android:onClick="imageDisplay" />
+
+        <ImageView
+            android:id="@+id/template6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:src="@drawable/template_tanktop" 
+            android:onClick="imageDisplay"/>
+    </LinearLayout>
+
+</HorizontalScrollView>

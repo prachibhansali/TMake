@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">tMake</string>
+    <string name="menu_settings">Settings</string>
+    <color name="white">#ffffff</color>
+    <color name="grey">#666666</color>
+    <string name="content">content</string>
+    <string name="loadImage">Load Image</string>
+    <string name="about">About Us</string>
+    <string name="explore">Explore</string>
+    <string name="design">Design</string>
+    <string name="templateactivity">Select Template</string>
+    <string name="mainactivity">Create !</string>
+
+</resources>
